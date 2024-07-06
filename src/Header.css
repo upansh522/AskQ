@@ -1,0 +1,58 @@
+.Header{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #b3cbe1;
+    
+}
+
+.History{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: #b84221;
+    margin-left: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.History:hover{
+    background-color: #b6300a;
+}
+.Addicon{
+    position: absolute;
+    left: 28%;
+    color: azure;
+    top: 25%;
+}
+
+.logo{
+    position: relative;
+    height: 80px;
+    width: 85px;
+    border-radius: 50px;
+    background-color: #b3cbe1;
+    
+}
+
+.Name{
+    position: absolute;
+    left: 50%;
+    display: flex;
+    cursor: pointer;
+}
+
+.title{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+

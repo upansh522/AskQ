@@ -1,0 +1,144 @@
+.Main {
+    background-color: #364f68;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.HistorySection {
+    flex: .2;
+    border-radius: 0px 20px 20px 0;
+    background-color: black;
+    z-index: 1;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    overflow-y:scroll ;
+    overflow-x: hidden;
+    outline: 0;
+    
+}
+
+.history_items{
+    margin: 5px;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    
+    
+
+}
+
+.HistorySection h4:hover{
+    background-color: #ac3312;
+}
+
+
+.outputSection{
+    display: flex;
+    flex-direction: column;    
+}
+
+.search {
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 25px 25px 25px 25px;
+    background-color: #222222;
+    transition-property: all;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.searchPlace{
+    width: 500%;
+    background-color: #222222;
+    outline: 0;
+    border: none;
+    transition: 1s;
+    font-size: large;
+    font-weight: 100;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.searchIcon{
+    color: azure;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.searchIcon:hover{
+    background-color: #292929;
+}
+
+.MicIcon{
+    color: azure;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.MicIcon:hover{
+    background-color: #292929;
+}
+
+
+.result {
+    flex: .9;
+    background-color: #5d7e9c;
+    margin: 15px;
+    border-radius: 25px;
+    color: azure;
+    overflow-y: scroll;
+    padding: 15px;
+    transition-duration: 3s;
+    transition-property: all;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+}
+
+.result h3{
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+
+.output{
+    color: azure;
+    background-color: black;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 25px;
+       
+}
+
+.output h4{
+    line-height: 2.0; /* Adjust line height as needed */
+    letter-spacing: 0.5px;
+    font-size: large;
+}
+
+::-webkit-scrollbar {
+    width: 5px; /* Adjust the width as needed */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #171717; /* Background color of the track */
+    opacity: .9;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Radius of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb on hover */
+  }
